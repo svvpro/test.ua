@@ -1,14 +1,8 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
-//require __DIR__.'/../app/App.php';
-//require __DIR__.'/../app/Teast.php';
-
-use svv\app\App;
-use svv\app\SvTest;
-use svv\app\Teast;
-
-require __DIR__.'/../vendor/autoload.php';
-$app = new App();
-$test = new Teast();
-$svtest = new SvTest();
-
+define('ROOT', dirname(__FILE__));
+require_once(ROOT.'\..\components\Router.php');
+$routs = new Router();
+$routs->run();
