@@ -2,10 +2,10 @@
 /**
  * Created by PhpStorm.
  * User: SVV
- * Date: 04.09.2016
- * Time: 17:27
+ * Date: 06.09.2016
+ * Time: 21:22
  */
 return array(
-    'news'=>'news/index',
-    'products'=>'products/list',
+    'news' => 'news/index',
+    'products' => 'products/list',
 );
